@@ -35,7 +35,8 @@ a:hover {
 }
 
 .profile-img {
-  float: right;
+  position: absolute;
+  bottom: 0;
 }
 
 #img-bottom {
@@ -154,20 +155,17 @@ li {
   ======================================= */
 .skills {
   background-color: #5fb0b7;
-  padding-bottom: 15px;
+  padding: 25px;
 }
 
-.skills-title {
-}
-
-.skills h5 {
+/* .skills h5 {
   margin-bottom: 10px;
-  padding: 0 5px;
-}
+  /* padding: 0 5px; */
+/* } 
 
 .skills p {
   padding: 0 5px;
-}
+} */
 
 /* =====================================
             CONTACT & LINKS
@@ -211,7 +209,7 @@ section.employment h4 {
 }
 
 section.employment h5 {
-  margin-bottom: 10px;
+  /* margin-bottom: 10px; */
   font-weight: 500;
 }
 
