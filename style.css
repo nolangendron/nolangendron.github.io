@@ -1,14 +1,30 @@
 body {
   box-sizing: border-box;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
-hr {
-  width: 95px;
-  margin: 0 0 30px;
-  border-width: 4px;
-  border-color: #ff4d57;
+h1,
+.h1 {
+  margin-top: 10px;
 }
 
+h2,
+.h2 {
+  margin-top: 40px;
+  border-bottom: solid 1px grey;
+}
+
+h4,
+.h4 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+h5,
+.h5 {
+  margin-top: 0;
+}
 a {
   text-decoration: none;
   color: #252525;
@@ -29,14 +45,9 @@ a:hover {
   padding-right: 0;
 }
 
-/* .img-container {
-  padding-top: 10%;
-  overflow: hidden;
-} */
-
 .profile-img {
   position: absolute;
-  padding-left: 50%;
+  padding-left: 30%;
   bottom: 0;
 }
 
@@ -44,8 +55,9 @@ a:hover {
   padding-bottom: 0;
 }
 
-.main-container {
-  max-width: 90%;
+.card {
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 /* ======================
@@ -60,7 +72,7 @@ p {
   font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-weight: 400;
-  line-height: 20px;
+  line-height: 24px;
   margin: 0;
   color: #424250;
 }
@@ -69,7 +81,7 @@ li {
   font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-weight: 400;
-  line-height: 20px;
+  line-height: 24px;
   margin: 0;
   color: #424250;
 }
@@ -95,10 +107,6 @@ li {
   flex-wrap: wrap;
 }
 
-.card {
-  padding: 10px;
-}
-
 /* ======================
          ABOUT ME
   ======================= */
@@ -109,7 +117,7 @@ li {
 
 .nolan {
   color: #5fb0b7;
-  font-weight: 300;
+  font-weight: 200;
 }
 
 .gendron {
@@ -154,9 +162,20 @@ li {
 /* =====================================
             SKILL STACK
   ======================================= */
-.skills {
+
+.skill-container {
   background-color: #5fb0b7;
-  padding: 25px;
+}
+
+.skills {
+  width: 71%;
+  margin: auto;
+  padding-top: 50px;
+  padding-bottom: 60px;
+}
+.skill {
+  max-width: 428px;
+  margin: 0 auto 10px;
 }
 
 /* .skills h5 {
@@ -248,76 +267,6 @@ section.employment a {
 
 .projects p {
   margin-bottom: 5px;
-}
-
-.project-button {
-  padding: 2px 0 2px 5px;
-  text-transform: uppercase;
-  background-color: #00c4f1;
-  color: #fff;
-  height: 17px;
-  font-size: 12px;
-  white-space: nowrap;
-}
-
-.project-button::after {
-  content: "";
-  position: relative;
-  left: 7px;
-  top: 17px;
-  width: 0;
-  height: 0;
-  border-style: solid;
-  border-width: 19px 7px 0 0;
-  border-color: #00c4f1 transparent transparent transparent;
-}
-
-a.project-button {
-  color: #fff;
-  text-decoration: none;
-  -webkit-transform: skew(-10deg, 0);
-}
-a.project-button:hover {
-  color: #fff;
-  background-color: #00add5;
-}
-a.project-button:hover::after {
-  border-color: #00add5 transparent transparent transparent;
-}
-
-.button-nested {
-  padding: 2px 0 2px 10px;
-  text-transform: uppercase;
-  background-color: #00bce2;
-  color: #fff;
-  height: 17px;
-  font-size: 12px;
-  white-space: nowrap;
-}
-
-.button-nested::after {
-  content: "";
-  position: relative;
-  left: 7px;
-  top: 17px;
-  width: 0;
-  height: 0;
-  border-style: solid;
-  border-width: 19px 7px 0 0;
-  border-color: #00bce2 transparent transparent transparent;
-}
-
-a.button-nested {
-  color: #fff;
-  text-decoration: none;
-  -webkit-transform: skew(-10deg, 0);
-}
-a.button-nested:hover {
-  color: #fff;
-  background-color: #00a6cc;
-}
-a.button-nested:hover::after {
-  border-color: #00a6cc transparent transparent transparent;
 }
 
 /* =====================================
