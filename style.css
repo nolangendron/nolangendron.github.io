@@ -1,7 +1,7 @@
 body {
   box-sizing: border-box;
   margin-top: 30px;
-  margin-bottom: 30px;
+  margin-bottom: 50px;
 }
 
 h1,
@@ -11,7 +11,7 @@ h1,
 
 h2,
 .h2 {
-  margin-top: 40px;
+  margin-top: 60px;
   border-bottom: solid 1px grey;
 }
 
@@ -47,7 +47,7 @@ a:hover {
 
 .profile-img {
   position: absolute;
-  padding-left: 30%;
+  padding-left: 15%;
   bottom: 0;
 }
 
@@ -171,7 +171,7 @@ li {
   width: 71%;
   margin: auto;
   padding-top: 50px;
-  padding-bottom: 60px;
+  padding-bottom: 75px;
 }
 .skill {
   max-width: 428px;
@@ -281,6 +281,9 @@ section.employment a {
   .summary-container h3 {
     font-size: 22px;
   }
+  .image {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -288,6 +291,9 @@ section.employment a {
     display: none;
   }
 
+  img {
+    display: none;
+  }
   .img-container {
     height: 300px;
     overflow: hidden;
