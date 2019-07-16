@@ -6,13 +6,16 @@ body {
 
 h1,
 .h1 {
-  margin-top: 10px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  font-size: 40px;
 }
 
 h2,
 .h2 {
   margin-top: 60px;
   border-bottom: solid 1px grey;
+  padding-bottom: 10px;
 }
 
 h4,
@@ -81,7 +84,7 @@ li {
   font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-weight: 400;
-  line-height: 24px;
+  line-height: 26px;
   margin: 0;
   color: #424250;
 }
@@ -123,6 +126,10 @@ li {
 .gendron {
   color: #5fb0b7;
   font-weight: 600;
+}
+
+.first-paragraph {
+  margin-top: 30px;
 }
 
 .about-me-container p {
@@ -171,7 +178,7 @@ li {
   width: 71%;
   margin: auto;
   padding-top: 50px;
-  padding-bottom: 75px;
+  padding-bottom: 95px;
 }
 .skill {
   max-width: 428px;
@@ -257,16 +264,22 @@ section.employment a {
 
 .projects h5 {
   margin: 5px 0;
+  font-size: 16px;
 }
 
 .project-date {
   font-weight: 500;
-  font-size: 12px;
+  color: gray;
+  font-size: 13px;
   padding-bottom: 5px;
 }
 
 .projects p {
   margin-bottom: 5px;
+}
+
+.btn {
+  margin-top: 15px;
 }
 
 /* =====================================
